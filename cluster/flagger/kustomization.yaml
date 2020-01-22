@@ -4,7 +4,5 @@ resources:
 bases:
   - github.com/weaveworks/flagger/kustomize/base/flagger
   - github.com/weaveworks/flagger/kustomize/base/prometheus
-  # - github.com/weaveworks/flagger/kustomize/istio
-
 patchesStrategicMerge:
   - flagger-patch.yaml

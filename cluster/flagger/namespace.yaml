@@ -7,3 +7,6 @@ metadata:
   labels:
     istio-injection: disabled
     appmesh.k8s.aws/sidecarInjectorWebhook: disabled
+
+
+helm upgrade -i flagger-grafana flagger/grafana --namespace=flagger-system --set url=http://flagger-prometheus:9090
