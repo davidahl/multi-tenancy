@@ -3,6 +3,7 @@
   kind: Deployment
   metadata:
     name: helm-operator
+    namespace: flux-system
   spec:
     replicas: 1
     selector:
