@@ -1,0 +1,5 @@
+namespace: flux-system
+bases:
+  - github.com/fluxcd/helm-operator//deploy
+patchesStrategicMerge:
+  - helm-operator-patch.yaml
